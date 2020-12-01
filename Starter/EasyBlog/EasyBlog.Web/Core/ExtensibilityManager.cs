@@ -9,6 +9,11 @@ namespace EasyBlog.Web.Core
 {
     public class ExtensibilityManager : IExtensibilityManager
     {
+        ModuleEvents _ModuleEvents;
+        public ModuleEvents ModuleEvents
+        {
+            get { return _ModuleEvents; }
+        }
         #region get module events
 
         ModuleEvents IExtensibilityManager.GetModuleEvents()
@@ -29,7 +34,7 @@ namespace EasyBlog.Web.Core
                     }
                 }
             }
-            
+            _ModuleEvents = moduleEvents;
             return moduleEvents;
         }
 

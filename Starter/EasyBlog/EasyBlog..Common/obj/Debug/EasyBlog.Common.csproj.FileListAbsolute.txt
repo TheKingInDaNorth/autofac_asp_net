@@ -1,0 +1,13 @@
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EasyBlog.Common.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EasyBlog.Common.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EasyBlog.Core.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EasyWeb.Data.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EntityFramework.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EasyBlog.Core.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EasyWeb.Data.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\bin\Debug\EntityFramework.xml
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\obj\Debug\EasyBlog.Common.csprojAssemblyReference.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\obj\Debug\EasyBlog.Common.csproj.CoreCompileInputs.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\obj\Debug\EasyBlog.Common.csproj.CopyComplete
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\obj\Debug\EasyBlog.Common.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog..Common\obj\Debug\EasyBlog.Common.pdb

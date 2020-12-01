@@ -1,0 +1,11 @@
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\bin\Debug\EasyBlog.Core.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\bin\Debug\EasyBlog.Core.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\bin\Debug\EntityFramework.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\bin\Debug\EntityFramework.xml
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\obj\Debug\EasyBlog.Core.csprojAssemblyReference.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\obj\Debug\EasyBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\obj\Debug\EasyBlog.Core.csproj.CopyComplete
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\obj\Debug\EasyBlog.Core.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Core\obj\Debug\EasyBlog.Core.pdb

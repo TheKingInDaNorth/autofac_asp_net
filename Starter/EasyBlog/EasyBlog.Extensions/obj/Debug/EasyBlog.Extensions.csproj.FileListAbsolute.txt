@@ -1,0 +1,15 @@
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyBlog.Extensions.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyBlog.Extensions.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyBlog.Common.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyBlog.Core.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyWeb.Data.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EntityFramework.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyBlog.Common.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyBlog.Core.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EasyWeb.Data.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\bin\Debug\EntityFramework.xml
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\obj\Debug\EasyBlog.Extensions.csprojAssemblyReference.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\obj\Debug\EasyBlog.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\obj\Debug\EasyBlog.Extensions.csproj.CopyComplete
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\obj\Debug\EasyBlog.Extensions.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\EasyBlog\EasyBlog.Extensions\obj\Debug\EasyBlog.Extensions.pdb
