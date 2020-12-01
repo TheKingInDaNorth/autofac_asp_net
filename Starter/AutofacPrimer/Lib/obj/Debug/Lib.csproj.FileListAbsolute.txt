@@ -1,0 +1,6 @@
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\AutofacPrimer\Lib\bin\Debug\Lib.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\AutofacPrimer\Lib\bin\Debug\Lib.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\AutofacPrimer\Lib\obj\Debug\Lib.csprojAssemblyReference.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\AutofacPrimer\Lib\obj\Debug\Lib.csproj.CoreCompileInputs.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\AutofacPrimer\Lib\obj\Debug\Lib.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\AutofacPrimer\Lib\obj\Debug\Lib.pdb

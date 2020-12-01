@@ -29,8 +29,7 @@ namespace DevConsole
 
                             IContainer container = builder.Build();
 
-                            SuperheroService superheroService = new SuperheroService(
-                                new AvengerRepository(new Logger()), new Logger());
+                            var superheroService = container.Resolve<SuperheroService>();
 
                             var avengers = superheroService.GetAvengers();
                             Console.WriteLine();
@@ -47,8 +46,14 @@ namespace DevConsole
                             string name = Console.ReadLine();
                             if (!string.IsNullOrWhiteSpace(name))
                             {
-                                SuperheroService superheroService = new SuperheroService(
-                                new AvengerRepository(new Logger()), new Logger());
+                                ContainerBuilder builder = new ContainerBuilder();
+                                builder.RegisterType<AvengerRepository>().As<IAvengerRepository>();
+                                builder.RegisterType<Logger>().As<ILogger>();
+                                builder.RegisterType<SuperheroService>();
+
+                                IContainer container = builder.Build();
+
+                                var superheroService = container.Resolve<SuperheroService>();
 
                                 var avenger = superheroService.GetAvenger(name);
                                 if (avenger != null)
