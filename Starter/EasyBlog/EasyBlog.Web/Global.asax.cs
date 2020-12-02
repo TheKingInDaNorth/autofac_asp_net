@@ -1,8 +1,10 @@
 ﻿using Autofac;
+using Autofac.Configuration;
 using Autofac.Integration.Mvc;
 using Autofac.Integration.WebApi;
 using EasyBlog.Data;
 using EasyBlog.Web.Core;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Linq;
 using System.Web.Http;
@@ -30,9 +32,16 @@ namespace EasyBlog.Web
             ContainerBuilder builder = new ContainerBuilder();
             builder.RegisterControllers(typeof(MvcApplication).Assembly).InstancePerRequest();
             builder.RegisterApiControllers(typeof(MvcApplication).Assembly).InstancePerRequest();
-            builder.RegisterType<ExtensibilityManager>().As<IExtensibilityManager>().SingleInstance();
-            builder.RegisterType<BlogPostRepository>().As<IBlogPostRepository>()
-                .WithParameter(new TypedParameter(typeof(string), "easyBlog"));
+
+            // builder.RegisterType<ExtensibilityManager>().As<IExtensibilityManager>().SingleInstance();
+
+            //builder.RegisterModule<RepositoryRegistrationModule>();
+
+            IConfigurationBuilder config = new ConfigurationBuilder();
+            config.AddJsonFile("autofac.json");
+
+            ConfigurationModule module = new ConfigurationModule(config.Build());
+            builder.RegisterModule(module);
 
             IContainer container = builder.Build();
 
