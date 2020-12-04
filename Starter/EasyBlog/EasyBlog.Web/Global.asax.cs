@@ -45,6 +45,8 @@ namespace EasyBlog.Web
             ConfigurationModule module = new ConfigurationModule(config.Build());
             builder.RegisterModule(module);
 
+            builder.RegisterFilterProvider();
+
             IContainer container = builder.Build();
 
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
