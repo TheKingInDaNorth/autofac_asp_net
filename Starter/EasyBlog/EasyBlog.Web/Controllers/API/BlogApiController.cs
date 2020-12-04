@@ -15,11 +15,11 @@ namespace EasyBlog.Web.Controllers.API
     [RoutePrefix("api/blog")]
     public class BlogApiController : ApiController
     {
-        public BlogApiController(IComponentLocator componentLocator)
+        public BlogApiController(IComponentLocator componentLocator, IExtensibilityManager extensibilityManager)
         {
             _ComponentLocator = componentLocator;
-            _ExtensibilityManager = new ExtensibilityManager();
-            _ModuleEvents = HttpContext.Current.Application["ModuleEvents"] as ModuleEvents;
+            _ExtensibilityManager = extensibilityManager;
+            _ModuleEvents = _ExtensibilityManager.ModuleEvents;
         }
 
         IComponentLocator _ComponentLocator;
@@ -126,7 +126,7 @@ namespace EasyBlog.Web.Controllers.API
 
                 if (!preArgs.Cancel)
                 {
-                    IBlogCommentRepository blogCommentRepository = new BlogCommentRepository("easyBlog");
+                    IBlogCommentRepository blogCommentRepository = _ComponentLocator.ResolveComponent<IBlogCommentRepository>();
 
                     blogComment.CommentBody = preArgs.CommentReplacement;
                     blogComment = blogCommentRepository.Add(blogComment);
