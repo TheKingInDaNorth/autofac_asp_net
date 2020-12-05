@@ -46,6 +46,10 @@ namespace EasyBlog.Web
             builder.RegisterModule(module);
 
             builder.RegisterFilterProvider();
+            builder.RegisterWebApiFilterProvider(GlobalConfiguration.Configuration);
+
+            builder.RegisterType<LogMvcActionAttribute>().PropertiesAutowired();
+            builder.RegisterType<LogWebApiAction>().PropertiesAutowired();
 
             IContainer container = builder.Build();
 
@@ -56,6 +60,9 @@ namespace EasyBlog.Web
             IExtensibilityManager extensibilityManager = container.Resolve<IExtensibilityManager>();
 
             extensibilityManager.GetModuleEvents();
+
+            GlobalFilters.Filters.Add(container.Resolve<LogMvcActionAttribute>());
+            GlobalConfiguration.Configuration.Filters.Add(container.Resolve<LogWebApiAction>());
         }
     }
 }
