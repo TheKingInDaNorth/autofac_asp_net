@@ -28,6 +28,7 @@ namespace EasyBlog.Web.Controllers.API
         
         [HttpGet]
         [Route("posts")]
+        [LogWebApiAction]
         public HttpResponseMessage FetchPosts(HttpRequestMessage request)
         {
             // this call is not used in the site since it's happening from the view-controller
