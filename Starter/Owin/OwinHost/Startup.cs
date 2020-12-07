@@ -33,11 +33,15 @@ namespace OwinHost
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly()).InstancePerRequest();
 
             IContainer container = builder.Build();
-            
+
             appBuilder
                 .UseAutofacWebApi(config)
                 .UseAutofacMiddleware(container)
                 .UseWebApi(config);
+            //appBuilder
+            //    .UseAutofacWebApi(config)
+            //    .UseMiddlewareFromContainer<LoggerMiddleware>()
+            //    .UseWebApi(config);
         }
     }
 }

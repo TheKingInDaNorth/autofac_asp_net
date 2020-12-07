@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0JpDMeSRnBHiPCiIXFM/Yt28ybuPTgnu6zC1muSt6Ct3jLu7wjyomPDFbI7UQIeTKLsBfLKJhTXT7xUfmLqZ2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tuan.vo\\Desktop\\git folder\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tuan.vo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tuan.vo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
