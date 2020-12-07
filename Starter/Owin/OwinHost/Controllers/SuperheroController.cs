@@ -11,10 +11,10 @@ namespace ApiHost.Controllers
     [RoutePrefix("api/superhero")]
     public class SuperheroController : ApiController
     {
-        public SuperheroController()
+        public SuperheroController(IAvengerRepository avengerRepository, ILogger logger)
         {
-            _Logger = new Logger();
-            _AvengerRepository = new AvengerRepository(_Logger);
+            _Logger = logger;
+            _AvengerRepository = avengerRepository;
         }
 
         IAvengerRepository _AvengerRepository;

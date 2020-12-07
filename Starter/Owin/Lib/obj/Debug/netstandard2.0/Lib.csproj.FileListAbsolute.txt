@@ -1,0 +1,9 @@
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\bin\Debug\netstandard2.0\Lib.deps.json
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\bin\Debug\netstandard2.0\Lib.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\bin\Debug\netstandard2.0\Lib.pdb
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\obj\Debug\netstandard2.0\Lib.csprojAssemblyReference.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\obj\Debug\netstandard2.0\Lib.AssemblyInfoInputs.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\obj\Debug\netstandard2.0\Lib.AssemblyInfo.cs
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\obj\Debug\netstandard2.0\Lib.csproj.CoreCompileInputs.cache
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\obj\Debug\netstandard2.0\Lib.dll
+C:\Users\tuan.vo\Desktop\git folder\autofac_asp_net\Starter\Owin\Lib\obj\Debug\netstandard2.0\Lib.pdb

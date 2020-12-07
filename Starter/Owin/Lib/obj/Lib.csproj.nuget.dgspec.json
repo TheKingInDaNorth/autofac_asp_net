@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\itztu\\OneDrive\\Desktop\\Git Repositories\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj": {}
+    "C:\\Users\\tuan.vo\\Desktop\\git folder\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\itztu\\OneDrive\\Desktop\\Git Repositories\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj": {
+    "C:\\Users\\tuan.vo\\Desktop\\git folder\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\itztu\\OneDrive\\Desktop\\Git Repositories\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj",
+        "projectUniqueName": "C:\\Users\\tuan.vo\\Desktop\\git folder\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj",
         "projectName": "Lib",
-        "projectPath": "C:\\Users\\itztu\\OneDrive\\Desktop\\Git Repositories\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj",
-        "packagesPath": "C:\\Users\\itztu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\itztu\\OneDrive\\Desktop\\Git Repositories\\autofac_asp_net\\Starter\\Owin\\Lib\\obj\\",
+        "projectPath": "C:\\Users\\tuan.vo\\Desktop\\git folder\\autofac_asp_net\\Starter\\Owin\\Lib\\Lib.csproj",
+        "packagesPath": "C:\\Users\\tuan.vo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tuan.vo\\Desktop\\git folder\\autofac_asp_net\\Starter\\Owin\\Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\itztu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tuan.vo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

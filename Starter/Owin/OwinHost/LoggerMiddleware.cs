@@ -1,4 +1,7 @@
-﻿using Microsoft.Owin;
+﻿using Autofac;
+using Autofac.Integration.Owin;
+using Lib.Abstractions;
+using Microsoft.Owin;
 using System;
 using System.Threading.Tasks;
 
@@ -6,13 +9,17 @@ namespace OwinHost
 {
     public class LoggerMiddleware : OwinMiddleware
     {
-        public LoggerMiddleware(OwinMiddleware next) : base(next)
+        public ILogger _Logger;
+        public LoggerMiddleware(OwinMiddleware next, ILogger logger) : base(next)
         {
+            _Logger = logger;
         }
 
         public override async Task Invoke(IOwinContext context)
         {
-            Console.WriteLine("Inside the 'Invoke' method of the 'LoggerMiddleware' middleware.");
+            ILifetimeScope scope = context.GetAutofacLifetimeScope();
+
+            _Logger.Log("Inside the 'Invoke' method of the 'LoggerMiddleware' middleware.");
            
             await Next.Invoke(context);
         }
